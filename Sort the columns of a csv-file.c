@@ -43,7 +43,7 @@ void sort_csv_columns(char *FILE,char *OUT)
   {
     for(int k=j+1;k<*size;k++)
     {
-      if(compare(list[array[j]].name[0], list[array[k]].name[0])==1)
+      if(compare(list[array[j]].name[0],list[array[k]].name[0])==1)
       {
         t=array[j];
         array[j]=array[k];
